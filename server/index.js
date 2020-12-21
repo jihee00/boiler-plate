@@ -3,7 +3,7 @@ const app = express()
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const config = require('./config/key');
-const { auth } = require('./models/middleware/auth');
+const { auth } = require('./middleware/auth');
 const { User } = require("./models/User");
 
 //application/x-www-form-urlencoded 
